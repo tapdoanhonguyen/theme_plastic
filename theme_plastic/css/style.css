@@ -1,0 +1,64 @@
+﻿/* Info die */
+
+.nv-infodie {
+    margin: 0 auto;
+    box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-style: solid;
+    background-color: #fff;
+    position: absolute;
+    min-height: 300px !important;
+    min-width: 300px !important;
+    display: table;
+}
+
+.text-center {
+    text-align: center;
+}
+.nv-infodie a {
+	text-decoration: none;
+}
+.nv-infodie h2 {
+	font-size: 1.2rem;
+}
+.nv-infodie .panel-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nv-infodie .logo {
+    max-width: 40%;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.hidden {
+	display: none;
+}
+@media (min-width: 500px) {
+    .nv-infodie {
+        width: 500px;
+        left: 50%;
+        margin-left: -250px;
+    }
+}
+
+@media (min-height: 500px) {
+    .container {
+        width: 100%;
+    }
+
+    .nv-infodie {
+        height: 500px;
+        top: 50%;
+        margin-top: -250px;
+    }
+}
+
+@media (max-width: 499.98px) {
+    .nv-infodie {
+        width: 100%;
+    }
+}
